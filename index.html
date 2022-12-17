@@ -5,11 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libarary</title>
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/72eddfa3a7.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-    
+    <div class="position">
+    <h1> Libarary</h1>
+    <div class="current-books">
+        <table id="myTable">
+            <tr>
+               
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+              </tr>
+              <tr>
+               
+                <td>  Last Thing He Told Me</td>
+                <td>Laura Dave (Goodreads Author) </td>
+                <td>320 </td>
+                <td><button id="icon"><i class="fa-regular fa-trash-can"></i></button></td>
+              </tr>
+              <tr>
+                <td>Final Girl Support Group</td>
+                <td>Grady Hendrix (Goodreads Author)</td>
+                <td>320 </td>
+                <td><button id="icon"><i class="fa-regular fa-trash-can"></i></button></td>
+              </tr>
+              <tr>
+                <td>Olympus: Volume One</td>
+                <td>Rachel Smythe (Goodreads Author)</td>
+                <td>384 </td>
+                <td><button id="icon"><i class="fa-regular fa-trash-can"></i></button></td>
+              </tr>
 
+        </table>
+    </div>
+        
+
+    <button class="addBook"> NEW BOOK</button>
+   
+</div>
+    <div class="add">
+        <i class="fa-solid fa-circle-xmark"></i>
+        <form >
+            <label for="book-title">Book Title :</label><br>
+            <input type="text" id="book-title" name="book-title"><br> 
+
+            <label for="Author">Author :</label><br>
+            <input type="text" id="Author" name="Author"><br> 
+
+            <label for="Pages">Pages :</label><br>
+            <input type="number" id="Pages" name="Pages"> <br>
+
+            <input type="radio" id="Read" name="Read" value="Read">
+            <label for="Read">Read</label>
+            <input type="radio" id="Not-Read" name="Read" value="Not-Read">
+            <label for="Not-Read">Not Read</label><br>
+
+            <button id="save">Submit </button>
+
+        </form>
+    </div>
 
 
 
