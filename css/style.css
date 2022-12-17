@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+   
+    background-image: url("../images/istockphoto-1421897474-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position {
+    position: relative;
+}
+
+/* heading */
+h1{
+    text-align: center;
+font-size: 60px;
+padding: 20px;
+margin-bottom: 50px;
+text-shadow: 2px 2px 5px red;
+}
+
+/* current books */
+
+.current-books{
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+table{
+ /* background-color: #dcfce7; */
+   width: 100%;
+   border-radius: 20px;
+    
+}
+#icon{
+   
+    background-color: transparent;
+    border: none;
+}
+
+
+ th, td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  th {
+    text-align: start;
+  }
+  tr td:last-child{
+    border-bottom: none;
+  }
+/* add new book */
+ .addBook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    margin-left: 500px;
+    margin-top: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: #fefce8;
+    color: red;
+   
+}
+
+
+/* add form */
+.add{
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+  right:30%;
+  width: 500px;
+  height: 500px;
+  background-color: #e7e5e4;
+}
+form {
+    margin: 20px 50px 50px 50px;
+}
+.fa-solid {
+    display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+margin-right: 20px;
+margin-top: 20px;
+}
+input  {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#book-title ,#Author, #Pages{
+    width: 100%;
+    padding: 10px;
+}
+#read , #Not-Read{
+    margin-left: 20px;
+    padding-left: 5px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#save{
+    width: 150px;
+    height: 50px;
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 32%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#save:hover{
+    background-color: white;
+    color:black;
+   
+}
